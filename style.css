@@ -134,3 +134,16 @@ input[type="button"]{
     color: rgb(199, 36, 126);
 
 }
+.mail{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: cyan; */
+    width: 195px; 
+}
+.phone{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 135px;
+}
