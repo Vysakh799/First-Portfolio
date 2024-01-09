@@ -1,0 +1,136 @@
+ @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500&display=swap');
+body{
+    /* height: 713px; */
+  background-image: linear-gradient(to bottom right, rgb(199, 36, 126), rgb(46, 33, 221));
+  background-repeat: no-repeat;
+  min-height: 85.2vh;
+  color: white;
+}
+.container{
+    justify-content: center;
+    display: flex;
+    margin-top: 100px;
+}
+.box{
+    display: block;
+    width: 55vw;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: rgba(0,0,0,0.46);
+    padding: 50px;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0,0,0,0.7);
+    
+}
+.logo img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    opacity: 0.8;
+}
+.nav-bar{
+    display: flex
+}
+.nav-links ul{
+    display:flex;
+    margin-left: 60vh;
+    list-style: none;
+    gap: 25px;
+    font-family: 'Exo 2', sans-serif;
+}
+.nav-links a{
+    text-decoration: none;
+    color: white;
+}
+.nav-links :hover{
+    color: rgb(199, 36, 126);
+}
+/* .nav-links :active{
+    text-decoration: underline;
+} */
+.content{
+    display: flex;
+}
+.content-img img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-left: 70vh;
+    margin-top: -28vh;
+    box-shadow: 0 4px 30px rgba(0,0,0,0.7);
+    transition: transform 0.4s;
+}
+.content-img  :hover{
+    transform: scale(1.1);
+    box-shadow: none;
+
+}
+.text{
+    margin-top: 50px;
+}
+ p{
+    font-family: 'Exo 2', sans-serif;
+}
+.button{
+    display: flex;
+    gap: 15px;
+}
+input[type="button"]{
+    color: white;
+    background-color:transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 20vh;
+    /* transition: all 0.3s ease; */
+    padding: 5px;
+    font-family: 'Exo 2', sans-serif;
+}
+.btn1 input[type="button"]:hover{
+    background-color:  rgb(74, 124, 239);
+    border:  rgb(74, 124, 239);
+}
+.btn2 input[type="button"]:hover{
+    background-color:  rgb(199, 36, 126);
+    border:  rgb(199, 36, 126);
+}
+.ed-list{
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: 'Exo 2', sans-serif;
+}
+.bulb img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-left: 70vh;
+    margin-top: -40vh;
+    opacity: 0.6;
+    box-shadow: 0 4px 30px rgba(0,0,0,0.7);
+}
+.cont{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.cont a{
+    text-decoration: none;
+    color: white;
+}
+.cont-nav-links ul{
+    display:flex;
+    margin-left: 90vh;
+    list-style: none;
+    gap: 25px;
+    font-family: 'Exo 2', sans-serif;
+}
+.cont-nav-links a{
+    text-decoration: none;
+    color: white;
+}
+.cont-nav-links :hover{
+    color: rgb(199, 36, 126);
+
+}
